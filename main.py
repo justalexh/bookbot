@@ -1,5 +1,3 @@
-import string
-
 def get_book_text(path):
     with open(path, 'r') as f: # added r, but it is an optional parameter. Being explicit here.
         return f.read() #read the file
